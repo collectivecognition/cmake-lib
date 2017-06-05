@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 2.8.9)
+SET(CMAKE_C_COMPILER C:\\\\MinGW\\\\bin\\\\gcc.exe)
+SET(CMAKE_CXX_COMPILER C:\\\\MinGW\\\\bin\\\\g++.exe)
 project(fooLib)
 set(CMAKE_BUILD_TYPE Release)
  
